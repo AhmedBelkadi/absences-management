@@ -83,7 +83,7 @@
             </a>
         </li>
         <li class="menu-item ">
-            <a href="index.html" class="menu-link">
+            <a href="{{route("filieres.index")}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Filieres</div>
             </a>
@@ -128,6 +128,12 @@
             <a href="index.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Salles</div>
+            </a>
+        </li>
+        <li class="menu-item ">
+            <a href="{{route("modules.index")}}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Analytics">Modules</div>
             </a>
         </li>
 
